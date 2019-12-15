@@ -242,4 +242,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Compiled TypeScript Code
+ts-build/
+
 # End of https://www.gitignore.io/api/node,macos,windows,intellij+all,visualstudiocode

@@ -6,7 +6,7 @@
     "preserveConstEnums": true,
     "lib": ["es6", "dom", "es2017"],
     "esModuleInterop": true,
-    "target": "es6",
+    "target": "es5",
     "resolveJsonModule": true,
     "moduleResolution": "node",
     "outDir": "ts-build",
