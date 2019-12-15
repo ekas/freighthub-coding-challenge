@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+
+    "module": "commonjs",
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "lib": ["es6", "dom", "es2017"],
+    "esModuleInterop": true,
+    "target": "es6",
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "outDir": "ts-build",
+  },
+  "include": ["src/*.ts", "tests/TestCase2.ts", "tests/TestCase1.ts"],
+  "exclude": ["node_modules"]
+}

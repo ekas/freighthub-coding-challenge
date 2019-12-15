@@ -1,0 +1,23 @@
+{
+  "name": "freighthub-coding-challenge",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "test1": "npm run build && node ts-build/tests/TestCase1.js",
+    "test2": "npm run build && node ts-build/tests/TestCase2.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekas/freighthub-coding-challenge.git"
+  },
+  "author": "Ekas Preet Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekas/freighthub-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/ekas/freighthub-coding-challenge#readme",
+  "dependencies": {
+    "typescript": "^3.7.3"
+  }
+}

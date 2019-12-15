@@ -1,0 +1,42 @@
+[
+  {
+    "id": "id001",
+    "data": {
+      "destination": "Singapore",
+      "loadingPort": "USA",
+      "weight": "3LBS"
+    }
+  },
+  {
+    "id": "id002",
+    "data": {
+      "destination": "UK",
+      "loadingPort": "India",
+      "weight": "10LBS"
+    }
+  },
+  {
+    "id": "id003",
+    "data": {
+      "destination": "Australia",
+      "loadingPort": "China",
+      "weight": "15LBS"
+    }
+  },
+  {
+    "id": "id004",
+    "data": {
+      "destination": "USA",
+      "loadingPort": "Singapore",
+      "weight": "20LBS"
+    }
+  },
+  {
+    "id": "id005",
+    "data": {
+      "destination": "Brazil",
+      "loadingPort": "USA",
+      "weight": "3LBS"
+    }
+  }
+]

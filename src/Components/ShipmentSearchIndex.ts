@@ -1,3 +1,5 @@
+import { ShipmentDataInterface } from "../Interface/ShipmentDataInterface"
+
 async function sleep(ms: number) {
     return new Promise((resolve, reject) => {
         setTimeout(() => resolve(), ms)
@@ -9,12 +11,12 @@ async function randomDelay() {
     return sleep(randomTime)
 }
 
-class ShipmentSearchIndex {
-    async updateShipment(id: string, shipmentData: any) {
+export class ShipmentSearchIndex {
+    async updateShipment(shipmentData: ShipmentDataInterface) {
         const startTime = new Date()
         await randomDelay()
         const endTime = new Date()
-        console.log(`update ${id}@${
+        console.log(`update ${shipmentData.id}@${
             startTime.toISOString()
             } finished@${
             endTime.toISOString()
@@ -23,9 +25,4 @@ class ShipmentSearchIndex {
 
         return { startTime, endTime }
     }
-}
-
-// Implementation needed
-interface ShipmentUpdateListenerInterface {
-    receiveUpdate(id: string, shipmentData: any)
 }
